@@ -38,3 +38,26 @@ h1 {
     color: whitesmoke;
     font-weight: 800;
 }
+
+.container-two {
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+.middle-bar {
+
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container-two img {
+    width: 112%;
+}
+
+.resume-button {
+    background-image: linear-gradient(orange, tomato);
+    padding: 6px 30px;
+    text-decoration: none;
+}
