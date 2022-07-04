@@ -14,7 +14,7 @@ h1 {
     color: orange;
 }
 
-.top-bar {
+.flexible-bar {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ h1 {
     padding-left: 50px;
 }
 
-.middle-bar {
+.flexible-bar {
 
     display: flex;
     background-image: url(images/dream-bg.png);
@@ -60,4 +60,8 @@ h1 {
     background-image: linear-gradient(orange, tomato);
     padding: 6px 30px;
     text-decoration: none;
+}
+
+.experience-area {
+    display: flex;
 }
