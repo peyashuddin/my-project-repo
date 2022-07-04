@@ -1,5 +1,40 @@
-*{
-    margin:0px;
-    padding:0px;
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    padding: 0px;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+.bright {
+    color: orange;
+}
+
+.top-bar {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.container img {
+    width: 75%;
+}
+
+.appointment-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 6px 25px;
+    margin-top: 2px;
+    color: whitesmoke;
+    font-weight: 800;
+}
