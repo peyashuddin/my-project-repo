@@ -54,6 +54,7 @@ h1 {
 
 .container-two img {
     width: 112%;
+    background-repeat: no-repeat;
 }
 
 .resume-button {
@@ -62,6 +63,18 @@ h1 {
     text-decoration: none;
 }
 
-.experience-area {
-    display: flex;
+.tab-bar {
+    padding-left: 5%;
+    box-shadow: 10px 10px 15px gray;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(229, 224, 153);
+}
+
+footer p {
+    text-align: center;
+    padding-top: 5px;
 }
